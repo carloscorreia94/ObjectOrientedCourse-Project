@@ -1,0 +1,5 @@
+A classe Content aglomera directorias e ficheiros.
+O FileSystem tem uma agregação para Content de 0 para 1, devido ao filesystem trabalhar com uma entidade de cada vez, ainda que seja a entidade raiz.
+O primeiro utilizador a fazer login quando o FileSystem é criado é o Root, que é subclass de User por ter atributos e funcionalidades comuns.
+Os utilizadores são guardados dentro da subclasse Root pois faz sentido que esta armazene e tome conta dos mesmos.
+O prótótipo do método listUsers é definido na superclass para que Root possa fazer override e o FileSystem(Quando em modo utilizador normal) tenha acesso ao método.

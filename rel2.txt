@@ -1,0 +1,18 @@
+//// NOTAS ///
+As directorias 'bin', 'FileSys' e 'src' foram introduzias no CVS por engano. Não consigo apagá-las, mas de forma 
+alguma fazem interferência com o compile do programa.
+
+1) Visitor
+Foi utilizado este padrão apenas com o intuito de devolver tipos mais especificos na operação de acesso a directorias
+a partir de uma dada directoria (caminho absoluto ou relativo) , função 'Access' da classe Dir, 
+que serve de suporte a outras funÃ§Ãµes para inicialização do ficheiro textual nomeadamente, 
+como para a mudanÃ§a de directóio.
+
+2) Factory
+Foi implementada a solução de desenho Factory para criar objectos com uma descrição externa, no caso da
+inicialização do programa com dados textuais.
+
+
+3) Outros aspectos a mencionar
+As estruturas de dados mantiveram-se relativamente à entrega passada, a única alteração foi a passagem do
+que não é volátil para a classe FileSystem, este caso a estrutura que armazenava os Utilizadores.

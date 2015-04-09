@@ -1,0 +1,15 @@
+
+(1) Descrição das estruturas de dados utilizadas:
+
+Foram utilizados TreeMaps para armazenar utilizadores e conteudos de directorios. Foram escolhidas porque tem critério de iteração natural por chave em forma de Red Black Tree. Ainda assim implementei comparadores para ignorar a diferença entre Maiusculas na Key do TreeMap.
+
+Foram utilizados arrays para fazer o String Split tanto no openTextFile() que trata o ficheiro textual de entrada de dados, como na criação de directorios( createDir->FileSystem.java)  na versão do construtor que recebe um caminho absoluto.
+
+
+A estrutura de dados para os Directorios, TreeMap tem o Objecto Value (correspondente à key(String) associada) como "Content" para posterior implementação na Entrega Final. Por este motivo todas as operações de leitura e associação de directorios usam down casts para Dir. (Todo e qualquer content neste momento é Dir porque não existem Files) 
+
+
+(2) Outros Aspectos Relevantes a Mencionar:
+	Utilizadores deveriam estar armazenados no FileSystem e não no Manager. A implementar para a próxima entrega.
+		Objectos voláteis no FSManager como _currentUser e _currentDir
+		_disk e _users deviam estar no FileSystem

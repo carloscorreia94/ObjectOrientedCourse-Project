@@ -1,0 +1,11 @@
+USER|obiwan|Obi-Wan Kenobi|/home/obiwan
+USER|yoda|Master Yoda|/home/yoda
+USER|vader|Darth Vader|/home/vader
+DIRECTORY|/tmp|root|public
+DIRECTORY|/home/obiwan/droids|obiwan|private
+DIRECTORY|/home/vader/friends|vader|public
+DIRECTORY|/ifs/jedi.org|root|private
+DIRECTORY|/ifs/jedi.org/force|yoda|private
+DIRECTORY|/ifs/jedi.org/dark_side|vader|private
+FILE|/home/obiwan/droids/r2d2|obiwan|public|picture of r2d2
+FILE|/ifs/jedi.org/dark_side/calendar|vader|private|10:00 kill rebels; 12:00 lunch with emperor
