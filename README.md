@@ -16,4 +16,4 @@ https://www.l2f.inesc-id.pt/~david/w/pt/P%C3%A1gina_Principal
 
 
 The class Diagram sketch is here, and was substancially changed in the course of development.
-![alt tag](https://github.com/carloscorreia94/ObjectOrientedCourse-Project/diagram.jpg)
+![alt tag](https://github.com/carloscorreia94/ObjectOrientedCourse-Project/blob/master/diagram.jpg)
