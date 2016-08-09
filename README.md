@@ -18,5 +18,3 @@ https://www.l2f.inesc-id.pt/wiki/index.php/David_Martins_de_Matos
 https://www.l2f.inesc-id.pt/~david/w/pt/P%C3%A1gina_Principal
 
 
-The class Diagram sketch is here, and was substancially changed in the course of development.
-![alt tag](https://github.com/carloscorreia94/ObjectOrientedCourse-Project/blob/master/diagram.jpg)
